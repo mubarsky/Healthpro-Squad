@@ -166,70 +166,65 @@ button {
 }
 
 .right-2 {
-position: absolute;
-bottom: 9rem;
-left: 45rem;
-z-index: 1;
+  position: absolute;
+  bottom: 9rem;
+  left: 45rem;
+  z-index: 1;
 }
-.right-2 img{
+.right-2 img {
   max-width: 70%;
-} 
-/*header ending*/
-
-/*sign-up section*/
-.signup-container{
- color:  #00000080;
-margin: 1rem;
-padding-bottom: 1rem;
-border-bottom:  #00000080 8px solid;
 }
-.signup-container h1{
+/*header ending*/
+/*sign-up section*/
+.signup-container {
+  color: #00000080;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: #00000080 8px solid;
+}
+.signup-container h1 {
   font-size: 2rem;
   font-weight: bold;
 }
-input{
+input {
   margin: 10px;
   border: none;
-  border:  solid 7px   #00000080;
+  border: solid 7px #00000080;
   border-radius: 9px;
-
 }
-.form-1{
- 
+.form-1 {
 }
-.form-1 input{
-   padding: 10px 12rem;
+.form-1 input {
+  padding: 10px 12rem;
 }
-.form-1 input::placeholder{
+.form-1 input::placeholder {
   font-size: 1.1rem;
   border-radius: 2rem;
 }
 
-
-.form-2 input{
-   padding: 9px 6rem;
+.form-2 input {
+  padding: 9px 6rem;
 }
-.form-2 input::placeholder{
+.form-2 input::placeholder {
   font-size: 1.1rem;
-
 }
 
-.form-3 input{
-   padding: 10px 12rem;
+.form-3 input {
+  padding: 10px 12rem;
 }
-.form-3 input::placeholder{
+.form-3 input::placeholder {
   font-size: 1.1rem;
   border-radius: 2rem;
 }
 
-.form-4 input{
-   padding: 16px 30rem;
+.form-4 input {
+  padding: 16px 30rem;
 }
-.form-4 input::placeholder{
+.form-4 input::placeholder {
   font-size: 1.1rem;
   border-radius: 2rem;
 }
-.signup-container button{
+.signup-container button {
   padding: 10px 30px;
   border-radius: 9px;
   border: solid white 2px;
@@ -237,10 +232,9 @@ input{
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
-margin-left: 30rem;
+  margin-left: 30rem;
 }
 /*sign-up section end*/
-
 /* footer */
 .fourth-container {
   display: flex;
