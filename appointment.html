@@ -3,19 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This is an online platform that connects patients with doctors. Patients can book appointments with doctors and get prescriptions online."
-    />
-    <title>HealthPro</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <title>Appointment-Page</title>
+    <link rel="stylesheet" href="./css/appointment.css" />
   </head>
   <body>
     <!-- Navigation bar -->
@@ -25,10 +14,12 @@
       </section>
       <section class="navigation-container">
         <ul>
-          <a href="./index.html"><li class="Home-container">Home</li></a>
-          <a href="./appointment.html"><li>Appointment</li></a>
+          <a href="./index.html"><li>Home</li></a>
+          <a href="./appointment.html"
+            ><li class="Appointment-container">Appointment</li></a
+          >
           <a href="./services.html"><li>Services</li></a>
-          <a href="./aboutUs.html"> <li>About us</li></a>
+          <a href="./aboutUs.html"><li>About us</li></a>
           <a href="./contactUs.html"><li>Contact Us</li></a>
         </ul>
       </section>
@@ -63,42 +54,47 @@
           <img src="./images/Vector.png" alt="" />
         </section>
         <section class="right-2">
-          <div class="right-2-img-1">
-            <img src="./images/left.png" alt="" />
-          </div>
-          <div class="right-2-img-2">
-            <img src="./images/right.png" alt="" />
-          </div>
+          <img src="./images/laptop-man.png" alt="" />
         </section>
       </section>
     </section>
-    <!-- Hero section -->
-    <!-- Biography section -->
-    <section class="third-container">
-      <section class="third-left">
-        <img src="./images/biography-3.png" alt="" />
-      </section>
-      <section class="third-right">
-        <section class="right-texts">
-          <p>biography</p>
-          <h2>WHO WE ARE</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse
-            ex minima provident sint ad repellat minus dignissimos quibusdam?
-            Aliquid repellendus qui ipsum voluptatem, accusantium ducimus,
-            cumque provident laudantium doloremque suscipit alias a iure nobis
-            exercitationem laboriosam tenetur error repudiandae? Necessitatibus
-            ab blanditiis, veritatis velit consectetur officiis debitis itaque
-            dolor!
-          </p>
-          <p>its 2019 sink or swim</p>
-          <p>We are your social media marketing Agency</p>
-        </section>
-        <button>see more</button>
-      </section>
+    <!-- Hero section end -->
+
+    <!-- sign up section -->
+
+    <section class="signup-container">
+      <h1>APPOINTMENT</h1>
+      <form class="form-1">
+        <input type="text" placeholder="First-name" />
+        <input type="text" placeholder="last-name" />
+        <br />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Mobile number" />
+        <br />
+        <input type="text" placeholder="NIC" />
+        <input type="text" placeholder="Date of birth" />
+        <br />
+      </form>
+      <form class="form-2">
+        <input type="text" placeholder="Gender" />
+        <input type="text" placeholder="Appointment date" />
+        <input type="text" placeholder="Appointment time" />
+        <br />
+      </form>
+
+      <form class="form-3">
+        <input type="text" placeholder="Department name" />
+        <input type="text" placeholder="Doctor name" />
+      </form>
+      <form class="form-4">
+        <input type="text" placeholder="address" />
+        <br />
+        <button>register</button>
+      </form>
     </section>
-    <!-- Biography section -->
-    <!-- footer -->
+    <!-- sign up section end-->
+
+    <!-- footer section -->
     <section class="fourth-container">
       <section class="fourth-1">
         <img src="./images/healthPro-logo.png" alt="" />
