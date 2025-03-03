@@ -40,6 +40,10 @@ a{
   text-decoration: none;
   color: inherit;
 }
+button {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
 .first-container{
   margin-top: 1.5rem;
   margin-left: 1.5rem;
@@ -55,7 +59,7 @@ gap: 13rem;
  .navigation-container ul{
   display: flex;
   justify-content: space-between;
-gap: 1rem;
+gap: 2rem;
 }
 .navigation-container ul li{
  font-weight: bold;
@@ -77,6 +81,9 @@ border: none;
     font-weight: bold;  
   
 }
+.login-button:hover {
+  transform: scale(1.1);
+}
 .register-button{
   padding: 10px 20px;
   border-radius: 9px ;
@@ -84,6 +91,9 @@ border: none;
 background-color: #807593;
 color: white;
 font-weight: bold;
+}
+.register-button:hover {
+  transform: scale(1.1);
 }
 .second-container{
   display: flex;
